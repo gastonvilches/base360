@@ -1,0 +1,82 @@
+[
+  {
+    "video_name": "Video 1",
+    "start": 1.5,
+    "aspect_ratio": "4:5",
+    "effects": [
+      {
+        "type": "normal",
+        "duration": 4
+      },
+      {
+        "type": "transition",
+        "duration": 0.5
+      },
+      {
+        "type": "change_speed",
+        "duration": 4,
+        "factor": 0.5
+      },
+      {
+        "type": "transition",
+        "duration": 0.25
+      },
+      {
+        "type": "reverse",
+        "duration": 2,
+        "factor": 2
+      },
+      {
+        "type": "transition",
+        "duration": 0.25
+      },
+      {
+        "type": "change_speed",
+        "duration": 4,
+        "factor": 2.5
+      }
+    ]
+  },
+  {
+    "video_name": "Video 2",
+    "start": 0,
+    "aspect_ratio": "4:5",
+    "effects": [
+      {
+        "type": "change_speed",
+        "duration": 7,
+        "factor": 2
+      }
+    ]
+  },
+  {
+    "video_name": "Video 3",
+    "start": 2,
+    "aspect_ratio": "4:5",
+    "effects": [
+      {
+        "type": "change_speed",
+        "duration": 4,
+        "factor": 2
+      },
+      {
+        "type": "transition",
+        "duration": 0.5
+      },
+      {
+        "type": "reverse",
+        "duration": 4,
+        "factor": 0.75
+      },
+      {
+        "type": "transition",
+        "duration": 0.5
+      },
+      {
+        "type": "change_speed",
+        "duration": 3,
+        "factor": 2
+      }
+    ]
+  }
+]
